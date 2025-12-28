@@ -6,8 +6,8 @@ export default {
     };
   },
   methods: {
-    setCategory(cat) {
-      this.category = cat;
+    setCategory(e) {
+      this.category = e.target.value;
     },
   },
   mounted() {
@@ -19,9 +19,9 @@ export default {
 <template>
   <div id="app">
     <p>{{ category }}</p>
-    <button @click="setCategory('tennis')">Tennis</button>
-    <button @click="setCategory('clash_royale')">Clash Royale</button>
-    <button @click="setCategory('ucla')">UCLA</button>
+    <button @click="setCategory" value="tennis">Tennis</button>
+    <button @click="setCategory" value="clash_royale">Clash Royale</button>
+    <button @click="setCategory" value="ucla">UCLA</button>
   </div>
 </template>
 
