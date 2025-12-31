@@ -1,0 +1,14 @@
+/* Apply base typography and smoothing to the whole document so
+   all components inherit these defaults. */
+html, body {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+}
+
+/* Keep #app-specific layout adjustments here */
+#app {
+  text-align: center;
+  margin-top: 60px;
+}
