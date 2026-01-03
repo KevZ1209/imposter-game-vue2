@@ -1,0 +1,503 @@
+{
+  "Fruit": {
+    "Difficulty": "Medium",
+    "Entries": [
+      { "Word": "Apple", "Hints": ["Crunchy", "Core", "Orchard", "Skin"] },
+      {
+        "Word": "Banana",
+        "Hints": ["Curved", "Peel", "Tropical", "Potassium"]
+      },
+      { "Word": "Mango", "Hints": ["Stone", "Pit", "Juicy", "Sashimi"] },
+      {
+        "Word": "Strawberry",
+        "Hints": ["Seeds", "Summer", "Heart-shaped", "Shortcake"]
+      },
+      { "Word": "Pineapple", "Hints": ["Spiky", "Crown", "Acidic", "Ring"] },
+      {
+        "Word": "Watermelon",
+        "Hints": ["Rind", "Heavy", "Picnic", "Slices"]
+      },
+      { "Word": "Grapes", "Hints": ["Vine", "Bunch", "Ferment", "Seedless"] },
+      { "Word": "Orange", "Hints": ["Segment", "Zest", "Citrus", "Vitamin"] },
+      {
+        "Word": "Blueberry",
+        "Hints": ["Muffin", "Round", "Bush", "Antioxidant"]
+      },
+      { "Word": "Peach", "Hints": ["Fuzzy", "Cobbler", "Pit", "Soft"] },
+      { "Word": "Kiwi", "Hints": ["Furry", "Tart", "Slices", "Green"] },
+      { "Word": "Pear", "Hints": ["Gritty", "Narrow", "Soft", "Stem"] },
+      { "Word": "Cherry", "Hints": ["Stem", "Pair", "Sundae", "Pit"] },
+      {
+        "Word": "Pomegranate",
+        "Hints": ["Seeds", "Staining", "Sectioned", "Leathery"]
+      },
+      { "Word": "Lemon", "Hints": ["Sour", "Yellow", "Squeeze", "Zest"] },
+      { "Word": "Lime", "Hints": ["Garnish", "Tart", "Green", "Taco"] },
+      {
+        "Word": "Raspberry",
+        "Hints": ["Hollow", "Thorns", "Cane", "Delicate"]
+      },
+      { "Word": "Blackberry", "Hints": ["Dark", "Bramble", "Hedge", "Cane"] },
+      { "Word": "Plum", "Hints": ["Smooth", "Purple", "Dried", "Stone"] },
+      { "Word": "Apricot", "Hints": ["Velvet", "Small", "Orange", "Dried"] },
+      {
+        "Word": "Grapefruit",
+        "Hints": ["Bitter", "Breakfast", "Spoon", "Pink"]
+      },
+      {
+        "Word": "Papaya",
+        "Hints": ["Black-seeds", "Musky", "Tropical", "Pear-shaped"]
+      },
+      {
+        "Word": "Dragon Fruit",
+        "Hints": ["Scales", "Cactus", "Speckled", "Exotic"]
+      },
+      {
+        "Word": "Cantaloupe",
+        "Hints": ["Webbed", "Melon", "Orange", "Musky"]
+      },
+      { "Word": "Honeydew", "Hints": ["Smooth", "Pale", "Sweet", "Green"] },
+      { "Word": "Coconut", "Hints": ["Hard", "Hairy", "Water", "Tropical"] },
+      {
+        "Word": "Avocado",
+        "Hints": ["Creamy", "Guacamole", "Toast", "Large-pit"]
+      },
+      {
+        "Word": "Fig",
+        "Hints": ["Grainy", "Wasp", "Newton", "Mediterranean"]
+      },
+      { "Word": "Dates", "Hints": ["Wrinkled", "Sticky", "Palm", "Sweet"] },
+      {
+        "Word": "Guava",
+        "Hints": ["Tropical", "Pink-inside", "Pear-shaped", "Fragrant"]
+      },
+      {
+        "Word": "Passion Fruit",
+        "Hints": ["Wrinkly", "Purple-shell", "Crunchy-seeds", "Aromatic"]
+      },
+      {
+        "Word": "Lychee",
+        "Hints": ["Bumpy", "Translucent", "Peelable", "Floral"]
+      },
+      {
+        "Word": "Persimmon",
+        "Hints": ["Tomato-like", "Astringent", "Autumn", "Orange"]
+      },
+      { "Word": "Cranberry", "Hints": ["Bog", "Tart", "Sauce", "Holiday"] },
+      {
+        "Word": "Starfruit",
+        "Hints": ["Cross-section", "Yellow", "Ribbed", "Slices"]
+      },
+      {
+        "Word": "Durian",
+        "Hints": ["Spiky", "Pungent", "Custard", "Divisive"]
+      },
+      {
+        "Word": "Jackfruit",
+        "Hints": ["Gigantic", "Meat-substitute", "Bumpy", "Vegan"]
+      },
+      {
+        "Word": "Kumquat",
+        "Hints": ["Edible-skin", "Tiny", "Oval", "Citrus"]
+      },
+      {
+        "Word": "Mandarin",
+        "Hints": ["Easy-peel", "Small", "Segments", "Loose-skin"]
+      },
+      {
+        "Word": "Clementine",
+        "Hints": ["Lunchbox", "Seedless", "Citrus", "Mini"]
+      },
+      {
+        "Word": "Nectarine",
+        "Hints": ["Smooth-skin", "Peach-like", "Stone", "Summer"]
+      }
+    ]
+  },
+  "ATP Tennis": {
+    "Difficulty": "Hard",
+    "Entries": [
+      {
+        "Word": "Roger Federer",
+        "Hints": ["Elegant", "Swiss", "One-handed", "Grass"]
+      },
+      {
+        "Word": "Rafael Nadal",
+        "Hints": ["Left-handed", "Topspin", "Clay", "Bull"]
+      },
+      {
+        "Word": "Novak Djokovic",
+        "Hints": ["Flexible", "Returner", "Serbian", "Defense"]
+      },
+      {
+        "Word": "Carlos Alcaraz",
+        "Hints": ["Drop-shot", "Fast", "Spanish", "Young"]
+      },
+      {
+        "Word": "Jannik Sinner",
+        "Hints": ["Power", "Redhead", "Italian", "Baseline"]
+      },
+      {
+        "Word": "Daniil Medvedev",
+        "Hints": ["Hardcourt", "Flat", "Deep", "Russian"]
+      },
+      {
+        "Word": "Andy Murray",
+        "Hints": ["Lobs", "Tactician", "British", "Knight"]
+      },
+      {
+        "Word": "Stan Wawrinka",
+        "Hints": ["Power", "One-handed", "Stamina", "Stray-dog"]
+      },
+      {
+        "Word": "Dominic Thiem",
+        "Hints": ["Heavy", "Clay", "Backhand", "Austrian"]
+      },
+      {
+        "Word": "Alexander Zverev",
+        "Hints": ["Tall", "Serve", "German", "Gold-medal"]
+      },
+      {
+        "Word": "Nick Kyrgios",
+        "Hints": ["Underarm", "Showman", "Serve", "Aussie"]
+      },
+      {
+        "Word": "Stefanos Tsitsipas",
+        "Hints": ["Philosophical", "Greek", "Flowing", "One-handed"]
+      },
+      {
+        "Word": "Casper Ruud",
+        "Hints": ["Consistent", "Clay", "Norwegian", "Academy"]
+      },
+      {
+        "Word": "Taylor Fritz",
+        "Hints": ["Baseline", "American", "Serve", "Californian"]
+      },
+      {
+        "Word": "Holger Rune",
+        "Hints": ["Intense", "Danish", "Young", "Aggressive"]
+      },
+      {
+        "Word": "Grigor Dimitrov",
+        "Hints": ["Elegant", "Bulgarian", "One-handed", "Athletic"]
+      },
+      {
+        "Word": "Gael Monfils",
+        "Hints": ["Showman", "Slides", "French", "Athletic"]
+      },
+      {
+        "Word": "Felix Auger-Aliassime",
+        "Hints": ["Athletic", "Canadian", "Speed", "Youth"]
+      },
+      {
+        "Word": "Frances Tiafoe",
+        "Hints": ["American", "Personality", "Quick", "Electric"]
+      },
+      {
+        "Word": "Ben Shelton",
+        "Hints": ["Lefty", "Explosive", "American", "College"]
+      },
+      {
+        "Word": "Alex de Minaur",
+        "Hints": ["Speed", "Demon", "Aussie", "Counter-puncher"]
+      },
+      {
+        "Word": "Hubert Hurkacz",
+        "Hints": ["Serve", "Polish", "Polite", "Tall"]
+      },
+      {
+        "Word": "Andrey Rublev",
+        "Hints": ["Bweh", "Fiery", "Baseline", "Fast"]
+      },
+      {
+        "Word": "Lorenzo Musetti",
+        "Hints": ["One-handed", "Italian", "Stylish", "Finesse"]
+      },
+      {
+        "Word": "Jack Draper",
+        "Hints": ["Left-handed", "British", "Strong", "Hardcourt"]
+      }
+    ]
+  },
+  "Clash Royale": {
+    "Difficulty": "Medium",
+    "Entries": [
+      {
+        "Word": "The Log",
+        "Hints": ["Spells", "Rolling", "Knockback", "Wood"]
+      },
+      {
+        "Word": "Hog Rider",
+        "Hints": ["Win-condition", "Hammer", "Jumping", "Fast"]
+      },
+      {
+        "Word": "P.E.K.K.A",
+        "Hints": ["Heavy", "Sword", "Slow", "High-damage"]
+      },
+      {
+        "Word": "Mega Knight",
+        "Hints": ["Jumping", "Splash", "Heavy", "Armor"]
+      },
+      {
+        "Word": "Electro Wizard",
+        "Hints": ["Stun", "Zap", "Legendary", "Ranged"]
+      },
+      {
+        "Word": "Graveyard",
+        "Hints": ["Skeletons", "Spell", "Tower-damage", "Radius"]
+      },
+      { "Word": "Miner", "Hints": ["Digging", "Anywhere", "Tank", "Shovel"] },
+      {
+        "Word": "Princess",
+        "Hints": ["Range", "Arrows", "Fragile", "Bridge"]
+      },
+      {
+        "Word": "Sparky",
+        "Hints": ["Charging", "Electrical", "Blast", "Machine"]
+      },
+      {
+        "Word": "Balloon",
+        "Hints": ["Aerial", "Bomb", "Building-target", "High-damage"]
+      },
+      {
+        "Word": "X-Bow",
+        "Hints": ["Building", "Siege", "Rapid-fire", "Ground"]
+      },
+      {
+        "Word": "Inferno Dragon",
+        "Hints": ["Beaming", "Aerial", "Tank-killer", "Helmet"]
+      },
+      {
+        "Word": "Elite Barbarians",
+        "Hints": ["Pair", "Fast", "High-damage", "Helmets"]
+      },
+      { "Word": "Wizard", "Hints": ["Fireball", "Splash", "Ranged", "Hood"] },
+      {
+        "Word": "Mini P.E.K.K.A",
+        "Hints": ["Pancakes", "Fast", "Single-target", "Metal"]
+      },
+      {
+        "Word": "Valkyrie",
+        "Hints": ["Spinning", "Axe", "Splash", "Orange-hair"]
+      },
+      {
+        "Word": "Skeleton Army",
+        "Hints": ["Swarm", "Fragile", "Ground", "Numbers"]
+      },
+      {
+        "Word": "Goblin Barrel",
+        "Hints": ["Spell", "Launch", "Stab", "Surprise"]
+      },
+      {
+        "Word": "Ice Spirit",
+        "Hints": ["Freeze", "Cycle", "Jump", "One-elixir"]
+      },
+      { "Word": "Lava Hound", "Hints": ["Aerial", "Tank", "Pups", "Fiery"] },
+      {
+        "Word": "Night Witch",
+        "Hints": ["Bats", "Staff", "Melee", "Summoner"]
+      },
+      {
+        "Word": "Magic Archer",
+        "Hints": ["Piercing", "Geometry", "Ranged", "Hood"]
+      },
+      {
+        "Word": "Ram Rider",
+        "Hints": ["Charging", "Snare", "Bolos", "Fast"]
+      },
+      {
+        "Word": "Electro Giant",
+        "Hints": ["Reflect", "Electricity", "Heavy", "Backpack"]
+      },
+      { "Word": "Bowler", "Hints": ["Rolling", "Rock", "Blue", "Knockback"] },
+      {
+        "Word": "Executioner",
+        "Hints": ["Axe", "Boomerang", "Piercing", "Mask"]
+      },
+      {
+        "Word": "Archer Queen",
+        "Hints": ["Champion", "Invisibility", "Crossbow", "Cloak"]
+      },
+      {
+        "Word": "Mighty Miner",
+        "Hints": ["Champion", "Drill", "Switch-lane", "Bomb"]
+      },
+      {
+        "Word": "Monk",
+        "Hints": ["Champion", "Reflection", "Combo", "Melee"]
+      },
+      {
+        "Word": "Golden Knight",
+        "Hints": ["Champion", "Dashing", "Chain", "Hair"]
+      },
+      {
+        "Word": "Little Prince",
+        "Hints": ["Champion", "Guardian", "Rapid-fire", "Royal"]
+      },
+      {
+        "Word": "Royal Giant",
+        "Hints": ["Cannon", "Ranged", "Tank", "Beard"]
+      },
+      { "Word": "Fisherman", "Hints": ["Hook", "Pull", "Slow", "Anchor"] },
+      {
+        "Word": "Hunter",
+        "Hints": ["Shotgun", "Spread", "Mustache", "Defense"]
+      },
+      { "Word": "Zappies", "Hints": ["Machine", "Stun", "Triple", "Ground"] },
+      {
+        "Word": "Firecracker",
+        "Hints": ["Recoil", "Splash", "Pink-hair", "Ranged"]
+      },
+      {
+        "Word": "Battle Ram",
+        "Hints": ["Charging", "Building-target", "Duo", "Log"]
+      },
+      {
+        "Word": "Dark Prince",
+        "Hints": ["Shield", "Charge", "Splash", "Club"]
+      },
+      { "Word": "Guards", "Hints": ["Shield", "Triple", "Spears", "Bones"] },
+      {
+        "Word": "Baby Dragon",
+        "Hints": ["Aerial", "Splash", "Cute", "Fire"]
+      },
+      {
+        "Word": "Golem",
+        "Hints": ["Rock", "Explosion", "Heavy", "Golemites"]
+      },
+      {
+        "Word": "Wall Breakers",
+        "Hints": ["Bombs", "Fast", "Suicide", "Duo"]
+      },
+      { "Word": "Phoenix", "Hints": ["Aerial", "Egg", "Rebirth", "Fire"] },
+      {
+        "Word": "Tesla",
+        "Hints": ["Building", "Hidden", "Electrical", "Defense"]
+      },
+      {
+        "Word": "Inferno Tower",
+        "Hints": ["Building", "Beaming", "Tank-killer", "Heat"]
+      },
+      {
+        "Word": "Tornado",
+        "Hints": ["Spell", "Pull", "Radius", "Activation"]
+      },
+      {
+        "Word": "Lightning",
+        "Hints": ["Spell", "Triple-strike", "Heavy", "Stun"]
+      },
+      { "Word": "Arrows", "Hints": ["Spell", "Radius", "Volley", "Common"] },
+      {
+        "Word": "Rocket",
+        "Hints": ["Spell", "Heavy", "Slow", "Destruction"]
+      },
+      {
+        "Word": "Mirror",
+        "Hints": ["Duplicate", "Elixir-plus", "Copy", "Glass"]
+      }
+    ]
+  },
+  "General Knowledge": {
+    "Difficulty": "Easy",
+    "Entries": [
+      { "Word": "Umbrella", "Hints": ["Rain", "Handle", "Portable", "Dry"] },
+      { "Word": "Bicycle", "Hints": ["Pedals", "Wheels", "Chain", "Helmet"] },
+      { "Word": "Library", "Hints": ["Books", "Quiet", "Shelves", "Borrow"] },
+      {
+        "Word": "Sunglasses",
+        "Hints": ["Bright", "Eyes", "Summer", "Shade"]
+      },
+      { "Word": "Pizza", "Hints": ["Slices", "Box", "Cheese", "Delivery"] },
+      { "Word": "Airplane", "Hints": ["Wings", "Pilot", "Sky", "Airport"] },
+      {
+        "Word": "Backpack",
+        "Hints": ["Straps", "School", "Zipper", "Carry"]
+      },
+      { "Word": "Hammer", "Hints": ["Tool", "Nail", "Heavy", "Build"] },
+      {
+        "Word": "Hospital",
+        "Hints": ["Doctor", "Emergency", "Bed", "Medicine"]
+      },
+      { "Word": "Clock", "Hints": ["Time", "Hands", "Wall", "Seconds"] },
+      {
+        "Word": "Toothbrush",
+        "Hints": ["Bristles", "Morning", "Paste", "Clean"]
+      },
+      {
+        "Word": "Mirror",
+        "Hints": ["Reflection", "Glass", "Bathroom", "Self"]
+      },
+      {
+        "Word": "Guitar",
+        "Hints": ["Strings", "Music", "Acoustic", "Strum"]
+      },
+      {
+        "Word": "Elevator",
+        "Hints": ["Buttons", "Floor", "Lift", "Vertical"]
+      },
+      { "Word": "Popcorn", "Hints": ["Movie", "Salt", "Kernel", "Bag"] },
+      {
+        "Word": "Passport",
+        "Hints": ["Travel", "Border", "Document", "Photo"]
+      },
+      { "Word": "Cactus", "Hints": ["Desert", "Prickly", "Water", "Green"] },
+      { "Word": "Telescope", "Hints": ["Stars", "Space", "Magnify", "Lens"] },
+      { "Word": "Camera", "Hints": ["Lens", "Flash", "Photo", "Capture"] },
+      {
+        "Word": "Dictionary",
+        "Hints": ["Words", "Meaning", "Letters", "Definition"]
+      },
+      { "Word": "Sandwich", "Hints": ["Bread", "Lunch", "Layers", "Crust"] },
+      { "Word": "Calendar", "Hints": ["Date", "Month", "Year", "Schedule"] },
+      {
+        "Word": "Microscope",
+        "Hints": ["Small", "Science", "Lens", "Biology"]
+      },
+      { "Word": "Flashlight", "Hints": ["Dark", "Battery", "Beam", "Night"] },
+      { "Word": "Volcano", "Hints": ["Lava", "Mountain", "Eruption", "Ash"] },
+      { "Word": "Soap", "Hints": ["Bubbles", "Wash", "Bathroom", "Clean"] },
+      {
+        "Word": "Keyboard",
+        "Hints": ["Typing", "Keys", "Computer", "Letters"]
+      },
+      { "Word": "Campfire", "Hints": ["Wood", "Heat", "Night", "Smoke"] },
+      { "Word": "Pillow", "Hints": ["Sleep", "Soft", "Bed", "Head"] },
+      { "Word": "Lighthouse", "Hints": ["Coast", "Ship", "Beacon", "Ocean"] },
+      {
+        "Word": "Submarine",
+        "Hints": ["Underwater", "Sonar", "Deep", "Metal"]
+      },
+      { "Word": "Compass", "Hints": ["North", "Direction", "Needle", "Map"] },
+      { "Word": "Diamond", "Hints": ["Shiny", "Hard", "Jewelry", "Carbon"] },
+      { "Word": "Honey", "Hints": ["Bees", "Sweet", "Sticky", "Jar"] },
+      { "Word": "Snowman", "Hints": ["Winter", "Carrot", "Cold", "Scarf"] },
+      {
+        "Word": "Calculator",
+        "Hints": ["Math", "Numbers", "Buttons", "Solve"]
+      },
+      { "Word": "Ladder", "Hints": ["Climb", "Steps", "Height", "Tool"] },
+      { "Word": "Statue", "Hints": ["Stone", "Monument", "Still", "Public"] },
+      { "Word": "Trophy", "Hints": ["Winner", "Gold", "Prize", "Award"] },
+      {
+        "Word": "Fire-extinguisher",
+        "Hints": ["Safety", "Red", "Spray", "Emergency"]
+      },
+      { "Word": "Map", "Hints": ["Paper", "Geography", "Location", "Route"] },
+      { "Word": "Helicopter", "Hints": ["Blades", "Pilot", "Sky", "Hover"] },
+      { "Word": "Museum", "Hints": ["Art", "History", "Exhibit", "Tour"] },
+      { "Word": "Violin", "Hints": ["Strings", "Bow", "Orchestra", "Chin"] },
+      {
+        "Word": "Suitcase",
+        "Hints": ["Luggage", "Travel", "Packing", "Handle"]
+      },
+      { "Word": "Postcard", "Hints": ["Mail", "Travel", "Stamp", "Photo"] },
+      {
+        "Word": "Bridge",
+        "Hints": ["River", "Road", "Crossing", "Suspended"]
+      },
+      { "Word": "Waterfall", "Hints": ["River", "Cliff", "Nature", "Flow"] },
+      { "Word": "Tornado", "Hints": ["Wind", "Spinning", "Storm", "Funnel"] },
+      { "Word": "Rainbow", "Hints": ["Colors", "Rain", "Sky", "Arch"] }
+    ]
+  }
+}

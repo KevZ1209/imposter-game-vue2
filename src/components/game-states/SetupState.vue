@@ -13,23 +13,10 @@
     />
     <h3>Select a Category to Start:</h3>
     <CustomButton
-      buttonVal="tennis"
-      buttonLabel="Tennis"
-      @button-clicked="setCategory"
-    />
-    <CustomButton
-      buttonVal="soccer"
-      buttonLabel="Soccer"
-      @button-clicked="setCategory"
-    />
-    <CustomButton
-      buttonVal="basketball"
-      buttonLabel="Basketball"
-      @button-clicked="setCategory"
-    />
-    <CustomButton
-      buttonVal="baseball"
-      buttonLabel="Baseball"
+      v-for="(list, category) in words"
+      :key="category"
+      :buttonVal="category"
+      :buttonLabel="category"
       @button-clicked="setCategory"
     />
   </div>
@@ -37,10 +24,12 @@
 
 <script>
 import CustomButton from "../utility/CustomButton.vue";
+import words from "@/assets/words.json";
 
 export default {
   components: { CustomButton },
   data: () => ({
+    words: words,
     numPlayers: 3,
   }),
   methods: {

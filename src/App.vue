@@ -1,13 +1,15 @@
 <script>
 import SetupState from "./components/game-states/SetupState.vue";
+import GameState from "./components/game-states/GameState.vue";
 
 export default {
-  components: { SetupState },
+  components: { SetupState, GameState },
   data() {
     return {
       state: "setup",
       category: "",
       numPlayers: 3,
+      hintsEnabled: true,
     };
   },
   methods: {
@@ -26,12 +28,12 @@ export default {
 <template>
   <div id="app">
     <SetupState v-if="state === 'setup'" @start-game="startGame" />
-    <div v-else>
-      <h2>Game in Progress</h2>
-      <p>Category: {{ category }}</p>
-      <p>Number of Players: {{ numPlayers }}</p>
-      <!-- Game logic and components would go here -->
-    </div>
+    <GameState
+      v-else-if="state === 'game'"
+      :category="category"
+      :numPlayers="numPlayers"
+      :hintsEnabled="hintsEnabled"
+    />
   </div>
 </template>
 
