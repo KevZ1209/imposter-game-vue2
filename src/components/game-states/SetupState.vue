@@ -41,12 +41,14 @@ import CustomButton from "../utility/CustomButton.vue";
 export default {
   components: { CustomButton },
   data: () => ({
-    category: "",
     numPlayers: 3,
   }),
   methods: {
-    setCategory(e) {
-      this.category = e.target.value;
+    setCategory(value) {
+      this.$emit("start-game", {
+        category: value,
+        numPlayers: this.numPlayers,
+      });
     },
   },
 };

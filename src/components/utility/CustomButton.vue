@@ -6,9 +6,9 @@
 export default {
   props: ["buttonVal", "buttonLabel"],
   methods: {
-    setCategory(e) {
-      this.$emit("button-clicked", e);
-},
+    setCategory() {
+      this.$emit("button-clicked", this.buttonVal);
+    },
   },
 };
 </script>
