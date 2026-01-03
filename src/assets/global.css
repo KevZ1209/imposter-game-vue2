@@ -18,3 +18,10 @@ input {
   font-size: 16px;
   padding: 5px;
 }
+
+.card {
+  border: 2px solid #008cba;
+  display: inline-block;
+  padding: 20px;
+  margin: 20px auto;
+}

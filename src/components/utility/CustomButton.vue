@@ -16,7 +16,6 @@ export default {
 <style>
 button {
   background-color: white;
-  border: none;
   color: black;
   padding: 16px 32px;
   text-align: center;
