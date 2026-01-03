@@ -1,6 +1,7 @@
 /* Apply base typography and smoothing to the whole document so
    all components inherit these defaults. */
-html, body {
+html,
+body {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -11,4 +12,9 @@ html, body {
 #app {
   text-align: center;
   margin-top: 60px;
+}
+
+input {
+  font-size: 16px;
+  padding: 5px;
 }

@@ -1,24 +1,21 @@
 <script>
-import CustomButton from './components/CustomButton.vue'
+  import SetupState from "./components/game-states/SetupState.vue";
 
-export default {
-  components: { CustomButton },
-  data: () => ({
-    category: "",
-  }),
-  methods: {
-    setCategory(e) {
-      this.category = e.target.value;
-    }
-  },
-};
+  export default {
+    components: { SetupState },
+    data () {
+      return {
+        state: 'setup',
+        category: '',
+        numPlayers: 3
+      };
+    },
+  };
 </script>
 
 <template>
   <div id="app">
-    <p>{{ category }}</p>
-    <h1>Select a Category:</h1>
-    <CustomButton buttonVal="tennis" buttonLabel="Tennis" @button-clicked="setCategory"/>
+    <SetupState />
   </div>
 </template>
 
