@@ -11,6 +11,9 @@
       step="1"
       v-model.number="numPlayers"
     />
+    <div></div>
+    <label for="hintsEnabled">Enable Imposter Hints: </label>
+    <input id="hintsEnabled" type="checkbox" v-model="hintsEnabled" />
     <h3>Select a Category to Start:</h3>
     <CustomButton
       v-for="(list, category) in words"
@@ -31,12 +34,14 @@ export default {
   data: () => ({
     words: words,
     numPlayers: 3,
+    hintsEnabled: true,
   }),
   methods: {
     setCategory(value) {
       this.$emit("start-game", {
         category: value,
         numPlayers: this.numPlayers,
+        imposterHintsEnabled: this.hintsEnabled,
       });
     },
   },

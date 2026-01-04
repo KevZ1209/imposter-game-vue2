@@ -16,6 +16,7 @@ export default {
     startGame(payload) {
       this.category = payload.category;
       this.numPlayers = payload.numPlayers;
+      this.hintsEnabled = payload.imposterHintsEnabled;
       this.state = "game";
       console.log(
         `Game started with category: ${this.category} and number of players: ${this.numPlayers}`

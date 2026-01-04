@@ -40,11 +40,12 @@
         v-if="!imposterRevealed && seenPlayers.length >= numPlayers"
         @click="revealImposter"
       >
-        Reveal Imposter
+        Reveal Imposter and Word
       </button>
 
       <div v-if="imposterRevealed">
         <h3>Imposter is Player {{ imposterNumber }}</h3>
+        <h3>The word was: {{ curr_word }}</h3>
       </div>
     </div>
   </div>
