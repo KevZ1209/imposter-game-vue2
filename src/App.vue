@@ -1,9 +1,10 @@
 <script>
 import SetupState from "./components/game-states/SetupState.vue";
 import GameState from "./components/game-states/GameState.vue";
+import CustomButton from "./components/utility/CustomButton.vue";
 
 export default {
-  components: { SetupState, GameState },
+  components: { SetupState, GameState, CustomButton },
   data() {
     return {
       state: "setup",
@@ -34,6 +35,13 @@ export default {
       :category="category"
       :numPlayers="numPlayers"
       :hintsEnabled="hintsEnabled"
+    />
+    <!-- Add a bit of spacing here -->
+    <div style="height: 200px"></div>
+    <CustomButton
+      v-if="state !== 'setup'"
+      buttonLabel="Home"
+      @button-clicked="state = 'setup'"
     />
   </div>
 </template>

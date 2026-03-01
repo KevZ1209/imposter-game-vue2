@@ -37,7 +37,7 @@
 
     <div class="reveal-imposter">
       <button
-        v-if="!imposterRevealed && seenPlayers.length >= numPlayers"
+        v-if="!imposterRevealed && curr_player === -1"
         @click="revealImposter"
       >
         Reveal Imposter and Word
