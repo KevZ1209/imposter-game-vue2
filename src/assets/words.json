@@ -119,15 +119,15 @@
     "Entries": [
       {
         "Word": "Roger Federer",
-        "Hints": ["Elegant", "Maestro", "Stylish", "Grass"]
+        "Hints": ["Elegant", "Stylish", "Grass", "Veteran"]
       },
       {
         "Word": "Rafael Nadal",
-        "Hints": ["Muscular", "Spin", "Clay", "Strong"]
+        "Hints": ["Muscular", "Spin", "Clay", "Strong", "Veteran"]
       },
       {
         "Word": "Novak Djokovic",
-        "Hints": ["Flexible", "Returner", "Stamina", "Defense"]
+        "Hints": ["Flexible", "Returner", "Stamina", "Defense", "Veteran"]
       },
       {
         "Word": "Carlos Alcaraz",
@@ -147,7 +147,7 @@
       },
       {
         "Word": "Stan Wawrinka",
-        "Hints": ["Power", "Champion", "Stamina", "Sturdy"]
+        "Hints": ["Power", "Champion", "Stamina", "Sturdy", "Veteran"]
       },
       {
         "Word": "Dominic Thiem",
@@ -159,7 +159,7 @@
       },
       {
         "Word": "Nick Kyrgios",
-        "Hints": ["Controversial", "Showman", "Serve", "Drama"]
+        "Hints": ["Controversial", "Showman", "Serve", "Drama", "Unorthodox"]
       },
       {
         "Word": "Stefanos Tsitsipas",
@@ -183,7 +183,11 @@
       },
       {
         "Word": "Gael Monfils",
-        "Hints": ["Showman", "Slides", "Crowd-Favorite", "Athletic"]
+        "Hints": ["Showman", "Veteran", "Crowd-Favorite", "Athletic"]
+      },
+      {
+        "Word": "Alexander Bublik",
+        "Hints": ["Showman", "Serve", "Crowd-Favorite", "Unorthodox"]
       },
       {
         "Word": "Felix Auger-Aliassime",
@@ -199,7 +203,7 @@
       },
       {
         "Word": "Alex de Minaur",
-        "Hints": ["Speed", "Break-Rate", "Flat", "Counter-puncher"]
+        "Hints": ["Speed", "Breaker", "Flat", "Counter-puncher"]
       },
       {
         "Word": "Hubert Hurkacz",
@@ -216,6 +220,30 @@
       {
         "Word": "Jack Draper",
         "Hints": ["Spin", "Forehand", "Serve", "Stylish"]
+      },
+      {
+        "Word": "Matteo Berretini",
+        "Hints": ["Serve", "Forehand", "Stylish", "Power"]
+      },
+      {
+        "Word": "Jenson Brooksby",
+        "Hints": ["Baseline", "Counter-puncher", "Defense", "Unorthodox"]
+      },
+      {
+        "Word": "Adrian Mannarino",
+        "Hints": ["Baseline", "Counter-puncher", "Consistent", "Unorthodox"]
+      },
+      {
+        "Word": "Reilly Opelka",
+        "Hints": ["Serve", "Tall", "Ace", "Beard"]
+      },
+      {
+        "Word": "Learner Tien",
+        "Hints": ["Groundstrokes", "Young", "Consistent", "Rising-star"]
+      },
+      {
+        "Word": "Joao Fonseca",
+        "Hints": ["Forehand", "Crowd-Favorite", "Young", "Rising-star", "Fiery"]
       }
     ]
   },
@@ -236,15 +264,23 @@
       },
       {
         "Word": "Hog Rider",
-        "Hints": ["Win-condition", "Swing", "Jumping", "Fast"]
+        "Hints": ["Win-condition", "Swing", "Jump", "Fast"]
       },
       {
         "Word": "P.E.K.K.A",
-        "Hints": ["Heavy", "Single-target", "Slow", "High-damage"]
+        "Hints": [
+          "Heavy",
+          "Single-target",
+          "Slow",
+          "High-damage",
+          "Machine",
+          "Metal",
+          "Sword"
+        ]
       },
       {
         "Word": "Mega Knight",
-        "Hints": ["Jumping", "Splash", "Heavy", "Armor", "Annoying"]
+        "Hints": ["Jump", "Splash", "Heavy", "Armor", "Annoying"]
       },
       {
         "Word": "Electro Wizard",
@@ -257,14 +293,14 @@
           "Ranged",
           "Support",
           "Fragile",
-          "Ice",
+          "Cold",
           "Slowdown",
           "Cheap"
         ]
       },
       {
         "Word": "Ice Golem",
-        "Hints": ["Tank", "Cheap", "Explosion", "Defense", "Ice"]
+        "Hints": ["Tank", "Cheap", "Explosion", "Defense", "Cold"]
       },
       {
         "Word": "Graveyard",
@@ -274,10 +310,9 @@
         "Word": "Miner",
         "Hints": [
           "Offense",
-          "Ground",
           "Placement",
           "Control",
-          "Cheap",
+          "Inexpensive",
           "Low-damage"
         ]
       },
@@ -301,7 +336,13 @@
       },
       {
         "Word": "X-Bow",
-        "Hints": ["Annoying", "Win-condition", "Ranged", "Ground", "Building"]
+        "Hints": [
+          "Annoying",
+          "Win-condition",
+          "Ranged",
+          "Low-damage",
+          "Building"
+        ]
       },
       {
         "Word": "Inferno Dragon",
@@ -309,7 +350,7 @@
       },
       {
         "Word": "Elite Barbarians",
-        "Hints": ["Pair", "Fast", "High-damage", "Helmets"]
+        "Hints": ["Pair", "Fast", "High-damage", "Helmets", "Sword"]
       },
       {
         "Word": "Wizard",
@@ -317,7 +358,14 @@
       },
       {
         "Word": "Mini P.E.K.K.A",
-        "Hints": ["High-damage", "Fast", "Single-target", "Metal"]
+        "Hints": [
+          "High-damage",
+          "Fast",
+          "Single-target",
+          "Metal",
+          "Machine",
+          "Sword"
+        ]
       },
       {
         "Word": "Valkyrie",
@@ -333,7 +381,7 @@
       },
       {
         "Word": "Goblin Barrel",
-        "Hints": ["Spell", "Launch", "Stab", "Surprise"]
+        "Hints": ["Spell", "Launch", "Stab", "Surprise", "Inexpensive"]
       },
       {
         "Word": "Ice Spirit",
@@ -344,8 +392,7 @@
           "Fast",
           "Happy",
           "Cheap",
-          "Ice",
-          "Slowdown"
+          "Cold"
         ]
       },
       {
@@ -382,11 +429,31 @@
       },
       {
         "Word": "Royal Ghost",
-        "Hints": ["Hidden", "Melee", "Royal", "Cheap"]
+        "Hints": ["Hidden", "Melee", "Royal", "Inexpensive"]
       },
       {
         "Word": "Ram Rider",
         "Hints": ["Charging", "Offense", "Bridge", "Fast", "Slowdown", "Throw"]
+      },
+      {
+        "Word": "Giant Snowball",
+        "Hints": ["Cold", "Knockback", "Cheap", "Slowdown"]
+      },
+      {
+        "Word": "Freeze",
+        "Hints": ["Cold", "Underutilized", "Timing", "Slowdown"]
+      },
+      {
+        "Word": "Giant Skeleton",
+        "Hints": ["Tank", "Explosion", "Melee", "Heavy"]
+      },
+      {
+        "Word": "Void",
+        "Hints": ["Waves", "Dark", "Underutilized", "Inexpensive"]
+      },
+      {
+        "Word": "Vines",
+        "Hints": ["Waves", "Stun", "Inexpensive", "Green"]
       },
       {
         "Word": "Electro Giant",
@@ -405,7 +472,7 @@
       },
       {
         "Word": "Bandit",
-        "Hints": ["Dash", "Offense", "Mask", "Cloak", "Cheap"]
+        "Hints": ["Dash", "Offense", "Mask", "Cloak", "Inexpensive"]
       },
       {
         "Word": "Archer Queen",
@@ -433,7 +500,7 @@
       },
       {
         "Word": "Fisherman",
-        "Hints": ["Placement", "Pull", "Slow", "Defense", "Cheap"]
+        "Hints": ["Placement", "Pull", "Slow", "Defense", "Inexpensive"]
       },
       {
         "Word": "Hunter",
@@ -444,8 +511,24 @@
         "Hints": ["Machine", "Stun", "Electric", "Defense", "Slowdown"]
       },
       {
+        "Word": "Zap",
+        "Hints": [
+          "Electric",
+          "Stun",
+          "Versatile",
+          "Cheap",
+          "Timing",
+          "Splash",
+          "Popular"
+        ]
+      },
+      {
         "Word": "Firecracker",
         "Hints": ["Annoying", "Splash", "Support", "Ranged"]
+      },
+      {
+        "Word": "Fireball",
+        "Hints": ["Knockback", "Splash", "Fire", "Popular"]
       },
       {
         "Word": "Battle Ram",
@@ -453,11 +536,11 @@
       },
       {
         "Word": "Royal Recruits",
-        "Hints": ["Multiple", "Royal", "Defense", "Ground"]
+        "Hints": ["Multiple", "Royal", "Defense", "Ground", "Expensive", "Stab"]
       },
       {
         "Word": "Suspicious Bush",
-        "Hints": ["Hidden", "Melee", "Surprise", "Annoying", "Cheap"]
+        "Hints": ["Hidden", "Melee", "Surprise", "Annoying", "Cheap", "Green"]
       },
       {
         "Word": "Berserker",
@@ -465,7 +548,7 @@
       },
       {
         "Word": "Battle Healer",
-        "Hints": ["Support", "Ground", "Melee", "Slow"]
+        "Hints": ["Support", "Synergy", "Melee", "Slow"]
       },
       {
         "Word": "Dark Prince",
@@ -473,11 +556,18 @@
       },
       {
         "Word": "Prince",
-        "Hints": ["Charging", "High-damage", "Mustache", "Helmet", "Shield"]
+        "Hints": [
+          "Charging",
+          "High-damage",
+          "Mustache",
+          "Helmet",
+          "Shield",
+          "Stab"
+        ]
       },
       {
         "Word": "Guards",
-        "Hints": ["Defense", "Melee", "Shield", "Low-HP", "Multiple"]
+        "Hints": ["Defense", "Melee", "Shield", "Low-HP", "Multiple", "Stab"]
       },
       {
         "Word": "Baby Dragon",
@@ -522,7 +612,13 @@
       },
       {
         "Word": "Clone",
-        "Hints": ["Risky", "Versatile", "Underutilized", "Unexpected", "Cheap"]
+        "Hints": [
+          "Risky",
+          "Versatile",
+          "Underutilized",
+          "Unexpected",
+          "Inexpensive"
+        ]
       },
       {
         "Word": "Lumberjack",
@@ -542,11 +638,11 @@
       },
       {
         "Word": "Goblin Gang",
-        "Hints": ["Multiple", "Cheap", "Low-HP", "Fast"]
+        "Hints": ["Multiple", "Inexpensive", "Low-HP", "Fast", "Green"]
       },
       {
         "Word": "Royal Hogs",
-        "Hints": ["Multiple", "Jumping", "Win-condition", "Royal"]
+        "Hints": ["Multiple", "Jump", "Win-condition", "Royal"]
       },
       {
         "Word": "Three Musketeers",
@@ -584,39 +680,47 @@
       },
       {
         "Word": "Tombstone",
-        "Hints": ["Spawn", "Building", "Defense", "Cheap"]
+        "Hints": ["Spawn", "Building", "Defense", "Inexpensive"]
       },
       {
         "Word": "Barbarians",
-        "Hints": ["Aerial", "High-damage", "Fire", "Helmet"]
+        "Hints": ["Multiple", "Defense", "Melee", "Sword"]
       },
       {
         "Word": "Cannon",
-        "Hints": ["Building", "Ground", "Defense", "Cheap"]
+        "Hints": ["Building", "Shoot", "Defense", "Inexpensive"]
       },
       {
         "Word": "Mortar",
-        "Hints": ["Building", "Ground", "Ranged", "Win-condition", "Annoying"]
+        "Hints": ["Building", "Shoot", "Ranged", "Win-condition", "Annoying"]
       },
       {
         "Word": "Bomb Tower",
-        "Hints": ["Building", "Explosion", "Splash", "Defense", "Ground"]
+        "Hints": ["Building", "Explosion", "Splash", "Defense", "Throw"]
       },
       {
         "Word": "Spear Goblins",
-        "Hints": ["Cheap", "Low-HP", "Throw", "Ranged", "Multiple"]
+        "Hints": [
+          "Cheap",
+          "Low-HP",
+          "Throw",
+          "Ranged",
+          "Multiple",
+          "Green",
+          "Stab"
+        ]
       },
       {
         "Word": "Goblins",
-        "Hints": ["Cheap", "Low-HP", "Melee", "Multiple"]
+        "Hints": ["Cheap", "Low-HP", "Melee", "Multiple", "Green"]
       },
       {
         "Word": "Minions",
-        "Hints": ["Cheap", "Low-HP", "Aerial", "Multiple"]
+        "Hints": ["Inexpensive", "Low-HP", "Aerial", "Multiple"]
       },
       {
         "Word": "Minion Horde",
-        "Hints": ["Cheap", "Low-HP", "Aerial", "Multiple", "High-damage"]
+        "Hints": ["Low-HP", "Aerial", "Multiple", "High-damage"]
       },
       {
         "Word": "Bats",
@@ -643,11 +747,18 @@
       },
       {
         "Word": "Dart Goblin",
-        "Hints": ["Cheap", "Low-HP", "Ranged", "Fast", "Annoying"]
+        "Hints": [
+          "Inexpensive",
+          "Low-HP",
+          "Ranged",
+          "Fast",
+          "Annoying",
+          "Green"
+        ]
       },
       {
         "Word": "Elixir Golem",
-        "Hints": ["Split", "Tank", "Cheap", "Ground"]
+        "Hints": ["Split", "Tank", "Inexpensive", "Big"]
       },
       {
         "Word": "Flying Machine",
@@ -655,7 +766,11 @@
       },
       {
         "Word": "Goblin Demolisher",
-        "Hints": ["Explosion", "Ground", "Splash", "Throw", "Charge"]
+        "Hints": ["Explosion", "Splash", "Throw", "Charge", "Green"]
+      },
+      {
+        "Word": "Goblin Drill",
+        "Hints": ["Spawn", "Placement", "Surprise", "Building"]
       },
       {
         "Word": "Electro Dragon",
@@ -663,19 +778,19 @@
       },
       {
         "Word": "Goblin Giant",
-        "Hints": ["Tank", "Offense", "High-HP", "Slow"]
+        "Hints": ["Tank", "Offense", "High-HP", "Slow", "Green"]
       },
       {
         "Word": "Goblin Machine",
-        "Hints": ["Machine", "Ground", "Explosion", "Support", "Target"]
+        "Hints": ["Machine", "Explosion", "Support", "Target", "Green"]
       },
       {
         "Word": "Goblinstein",
-        "Hints": ["Tank", "Electric", "Activate", "Stun"]
+        "Hints": ["Tank", "Electric", "Activate", "Stun", "Green"]
       },
       {
         "Word": "Mega Minion",
-        "Hints": ["Aerial", "High-damage", "Defense", "Cheap"]
+        "Hints": ["Aerial", "High-damage", "Defense", "Inexpensive"]
       },
       {
         "Word": "Rascals",
@@ -683,7 +798,7 @@
       },
       {
         "Word": "Royal Delivery",
-        "Hints": ["Splash", "Defense", "Royal", "Drop"]
+        "Hints": ["Splash", "Defense", "Royal", "Drop", "Inexpensive", "Stab"]
       },
       {
         "Word": "Rune Giant",
@@ -698,7 +813,7 @@
       },
       {
         "Word": "Skeleton Barrel",
-        "Hints": ["Aerial", "Splash", "Cheap", "Multiple", "Explosion"]
+        "Hints": ["Aerial", "Splash", "Inexpensive", "Multiple", "Explosion"]
       },
       {
         "Word": "Skeleton Dragons",
@@ -810,7 +925,28 @@
       },
       { "Word": "Waterfall", "Hints": ["River", "Cliff", "Nature", "Flow"] },
       { "Word": "Tornado", "Hints": ["Wind", "Spinning", "Storm", "Funnel"] },
-      { "Word": "Rainbow", "Hints": ["Colors", "Rain", "Sky", "Arch"] }
+      { "Word": "Rainbow", "Hints": ["Colors", "Rain", "Sky", "Arch"] },
+      { "Word": "Volleyball", "Hints": ["Net", "Beach", "Spike", "Serve"] },
+      { "Word": "Skateboard", "Hints": ["Wheels", "Deck", "Tricks", "Ramp"] },
+      { "Word": "Firefighter", "Hints": ["Rescue", "Hose", "Helmet", "Brave"] },
+      { "Word": "Piano", "Hints": ["Keys", "Music", "Pedals", "Grand"] },
+      {
+        "Word": "Spaceship",
+        "Hints": ["Space", "Astronauts", "Rocket", "Galaxy"]
+      },
+      { "Word": "Tennis", "Hints": ["Net", "Ball", "Stadium", "Court"] },
+      { "Word": "Basketball", "Hints": ["Hoop", "Dribble", "Court", "NBA"] },
+      { "Word": "Football", "Hints": ["Field", "Touchdown", "Helmet", "NFL"] },
+      { "Word": "Baseball", "Hints": ["Bat", "Glove", "Diamond", "MLB"] },
+      { "Word": "Golf", "Hints": ["Club", "Hole", "Green", "Tee"] },
+      { "Word": "Soccer", "Hints": ["Goal", "Pitch", "FIFA", "World Cup"] },
+      { "Word": "Hockey", "Hints": ["Puck", "Stick", "Ice", "NHL"] },
+      { "Word": "Cricket", "Hints": ["Bat", "Ball", "Wicket", "Test Match"] },
+      {
+        "Word": "Rugby",
+        "Hints": ["Try Line", "Scrum", "Oval Ball", "Tackle"]
+      },
+      { "Word": "Swimming", "Hints": ["Pool", "Laps", "Goggles", "Freestyle"] }
     ]
   }
 }
