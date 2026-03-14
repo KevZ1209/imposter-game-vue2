@@ -948,5 +948,55 @@
       },
       { "Word": "Swimming", "Hints": ["Pool", "Laps", "Goggles", "Freestyle"] }
     ]
+  },
+  "Sports": {
+    "Difficulty": "Easy",
+    "Entries": [
+      { "Word": "Baseball", "Hints": ["Peanuts", "Seventh-inning stretch", "Rain delay", "Walk-off"] },
+      { "Word": "Basketball", "Hints": ["Buzzer beater", "March", "Bracket", "Halftime"] },
+      { "Word": "Football", "Hints": ["Tailgate", "Sunday", "Pigskin", "Huddle"] },
+      { "Word": "Soccer", "Hints": ["Nil", "Stoppage time", "Transfer window", "Card"] },
+      { "Word": "Tennis", "Hints": ["Love", "Deuce", "Seeded", "Clay"] },
+      { "Word": "Golf", "Hints": ["Fore", "Links", "Caddie", "Handicap"] },
+      { "Word": "Hockey", "Hints": ["Zamboni", "Hat trick", "Power play", "Overtime"] },
+      { "Word": "Volleyball", "Hints": ["Rotation", "Side out", "Dig", "Libero"] },
+      { "Word": "Swimming", "Hints": ["Flip turn", "Medley", "Lane", "Touch pad"] },
+      { "Word": "Boxing", "Hints": ["Weigh-in", "Canvas", "Bell", "Corner"] },
+      { "Word": "Wrestling", "Hints": ["Takedown", "Escape", "Singlet", "Reversal"] },
+      { "Word": "Running", "Hints": ["Split time", "Pace", "Stride", "Kick"] },
+      { "Word": "Cycling", "Hints": ["Breakaway", "Draft", "Stage", "Yellow jersey"] },
+      { "Word": "Skiing", "Hints": ["Gondola", "Powder", "Slalom", "Après"] },
+      { "Word": "Surfing", "Hints": ["Barrel", "Shaka", "Wipeout", "Dawn patrol"] },
+      { "Word": "Cricket", "Hints": ["Over", "Googly", "Crease", "Stump"] },
+      { "Word": "Rugby", "Hints": ["Conversion", "Lineout", "Ruck", "Maul"] },
+      { "Word": "Bowling", "Hints": ["Turkey", "Gutter", "Approach", "Split"] },
+      { "Word": "Martial Arts", "Hints": ["Kata", "Dojo", "Belt", "Bow"] },
+      { "Word": "Gymnastics", "Hints": ["Dismount", "Stick", "Leotard", "Tumble"] }
+    ]
+  },
+  "Animals": {
+    "Difficulty": "Easy",
+    "Entries": [
+      { "Word": "Elephant", "Hints": ["Never forget", "Matriarch", "Dust bath", "Watering hole"] },
+      { "Word": "Lion", "Hints": ["Serengeti", "Twenty hours", "Hunt at dusk", "Cub"] },
+      { "Word": "Giraffe", "Hints": ["Tower", "Bleat", "Acacia", "Leafy"] },
+      { "Word": "Zebra", "Hints": ["Hyena", "Migration", "Plains", "Never domesticated"] },
+      { "Word": "Penguin", "Hints": ["March", "Huddle", "Egg on feet", "Antarctica"] },
+      { "Word": "Dolphin", "Hints": ["Echo", "Bow wave", "Playful", "Sleep with one eye"] },
+      { "Word": "Bear", "Hints": ["Berry", "Honey", "Cub", "Woods"] },
+      { "Word": "Wolf", "Hints": ["Moon", "Alpha", "Prey", "Winter"] },
+      { "Word": "Fox", "Hints": ["Grape", "Chicken coop", "Bush", "Quick"] },
+      { "Word": "Rabbit", "Hints": ["Binky", "Garden", "Thump", "Burrow"] },
+      { "Word": "Owl", "Hints": ["Wise", "Twilight", "Mouse", "Barn"] },
+      { "Word": "Eagle", "Hints": ["Freedom", "Screech", "Cliff", "Soar"] },
+      { "Word": "Shark", "Hints": ["Jaws", "Apex", "Chum", "Sixth sense"] },
+      { "Word": "Tiger", "Hints": ["Siberian", "Ambush", "Shere Khan", "Swipe"] },
+      { "Word": "Gorilla", "Hints": ["Chest beat", "Nesting", "Vine", "Mountain"] },
+      { "Word": "Kangaroo", "Hints": ["Red", "Grassland", "Kick", "Dingo"] },
+      { "Word": "Butterfly", "Hints": ["Metamorphosis", "Chrysalis", "Flower", "Monarch"] },
+      { "Word": "Snake", "Hints": ["Shed", "Forked tongue", "Basket", "Grass"] },
+      { "Word": "Turtle", "Hints": ["Ancient", "Galápagos", "Long life", "Sand"] },
+      { "Word": "Frog", "Hints": ["Lily pad", "Ribbit", "Prince", "Fly"] }
+    ]
   }
 }
