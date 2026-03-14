@@ -22,6 +22,20 @@
       :buttonLabel="category"
       @button-clicked="setCategory"
     />
+    <h3>Or use your own words (comma-separated):</h3>
+    <p>Hints are not supported for custom words.</p>
+    <input
+      id="customWords"
+      type="text"
+      v-model="customWordsInput"
+      placeholder="e.g. Apple, Banana, Mango"
+      class="custom-words-input"
+    />
+    <CustomButton
+      :buttonVal="'custom'"
+      :buttonLabel="'Start with custom words'"
+      @button-clicked="startWithCustomWords"
+    />
   </div>
 </template>
 
@@ -35,6 +49,7 @@ export default {
     words: words,
     numPlayers: 3,
     hintsEnabled: true,
+    customWordsInput: "",
   }),
   methods: {
     setCategory(value) {
@@ -42,10 +57,35 @@ export default {
         category: value,
         numPlayers: this.numPlayers,
         imposterHintsEnabled: this.hintsEnabled,
+        customWords: null,
+      });
+    },
+    startWithCustomWords() {
+      const list = this.customWordsInput
+        .split(",")
+        .map((w) => w.trim())
+        .filter((w) => w.length > 0);
+      if (list.length === 0) {
+        return;
+      }
+      this.$emit("start-game", {
+        category: "Custom",
+        numPlayers: this.numPlayers,
+        imposterHintsEnabled: this.hintsEnabled,
+        customWords: list,
       });
     },
   },
 };
 </script>
 
-<style></style>
+<style scoped>
+.custom-words-input {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 0.5rem auto 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+</style>

@@ -56,7 +56,7 @@
 import words from "@/assets/words.json";
 
 export default {
-  props: ["category", "numPlayers", "hintsEnabled"],
+  props: ["category", "numPlayers", "hintsEnabled", "customWords"],
   data: () => ({
     words: words,
     curr_word: "",
@@ -71,7 +71,9 @@ export default {
     if (this.numPlayers) {
       this.imposterNumber = Math.floor(Math.random() * this.numPlayers) + 1;
     }
-    if (
+    if (this.customWords && this.customWords.length) {
+      this.setWord();
+    } else if (
       this.category &&
       this.words &&
       this.words[this.category] &&
@@ -82,12 +84,19 @@ export default {
   },
   watch: {
     category(newVal) {
-      if (
+      if (this.customWords && this.customWords.length) {
+        this.setWord();
+      } else if (
         newVal &&
         this.words &&
         this.words[newVal] &&
         this.words[newVal].Entries
       ) {
+        this.setWord();
+      }
+    },
+    customWords(newVal) {
+      if (newVal && newVal.length) {
         this.setWord();
       }
     },
@@ -99,12 +108,18 @@ export default {
   },
   methods: {
     setWord() {
-      const list =
-        this.words &&
-        this.words[this.category] &&
-        this.words[this.category].Entries;
+      let list;
+      if (this.customWords && this.customWords.length) {
+        list = this.customWords.map((w) => ({ Word: w.trim(), Hints: [] }));
+      } else {
+        list =
+          this.words &&
+          this.words[this.category] &&
+          this.words[this.category].Entries;
+      }
       if (!list || !list.length) {
         this.curr_word = "";
+        this.curr_hint = "";
         return;
       }
       const rand_index = Math.floor(Math.random() * list.length);

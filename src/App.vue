@@ -11,6 +11,7 @@ export default {
       category: "",
       numPlayers: 3,
       hintsEnabled: true,
+      customWords: null,
     };
   },
   methods: {
@@ -18,6 +19,7 @@ export default {
       this.category = payload.category;
       this.numPlayers = payload.numPlayers;
       this.hintsEnabled = payload.imposterHintsEnabled;
+      this.customWords = payload.customWords || null;
       this.state = "game";
       console.log(
         `Game started with category: ${this.category} and number of players: ${this.numPlayers}`
@@ -35,6 +37,7 @@ export default {
       :category="category"
       :numPlayers="numPlayers"
       :hintsEnabled="hintsEnabled"
+      :customWords="customWords"
     />
     <!-- Add a bit of spacing here -->
     <div style="height: 200px"></div>
